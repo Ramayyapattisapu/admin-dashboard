@@ -17,9 +17,9 @@ export default function WidgetLg() {
           <th className="widgetLgTh">Date</th>
           <th className="widgetLgTh">Amount</th>
           <th className="widgetLgTh">Statistics</th>
-        </tr>
+        </tr> 
         <tr className="widgetLgTr">
-          <td className="widgwtLgUser">
+          <td className="widgetLgUser">
             <img src={profilePic} alt="" className="widgetLgImg" />
             <span className="widgetLgName">Susan Carol</span>
           </td>
@@ -27,15 +27,10 @@ export default function WidgetLg() {
           <td className="widgetLgAmount">$122.123</td>
           <td className="widgetLgStatus"><Button type="Approved" />
           </td>
-        </tr>
+        </tr> 
+
         <tr className="widgetLgTr">
-          <th className="widgetLgTh">Customer</th>
-          <th className="widgetLgTh">Date</th>
-          <th className="widgetLgTh">Amount</th>
-          <th className="widgetLgTh">Statistics</th>
-        </tr>
-        <tr className="widgetLgTr">
-          <td className="widgwtLgUser">
+          <td className="widgetLgUser">
             <img src={profilePic} alt="" className="widgetLgImg" />
             <span className="widgetLgName">Susan Carol</span>
           </td>
@@ -44,14 +39,9 @@ export default function WidgetLg() {
           <td className="widgetLgStatus"><Button type="Declined" />
           </td>
         </tr>
+
         <tr className="widgetLgTr">
-          <th className="widgetLgTh">Customer</th>
-          <th className="widgetLgTh">Date</th>
-          <th className="widgetLgTh">Amount</th>
-          <th className="widgetLgTh">Statistics</th>
-        </tr>
-        <tr className="widgetLgTr">
-          <td className="widgwtLgUser">
+          <td className="widgetLgUser">
             <img src={profilePic} alt="" className="widgetLgImg" />
             <span className="widgetLgName">Susan Carol</span>
           </td>
@@ -60,14 +50,9 @@ export default function WidgetLg() {
           <td className="widgetLgStatus"><Button type="Pending" />
           </td>
         </tr>
+
         <tr className="widgetLgTr">
-          <th className="widgetLgTh">Customer</th>
-          <th className="widgetLgTh">Date</th>
-          <th className="widgetLgTh">Amount</th>
-          <th className="widgetLgTh">Statistics</th>
-        </tr>
-        <tr className="widgetLgTr">
-          <td className="widgwtLgUser">
+          <td className="widgetLgUser">
             <img src={profilePic} alt="" className="widgetLgImg" />
             <span className="widgetLgName">Susan Carol</span>
           </td>

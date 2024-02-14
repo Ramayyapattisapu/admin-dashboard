@@ -15,51 +15,51 @@ export default function WidgetSm() {
             <span className="widgetSmUserTitle">Junior Software Developer</span>
           </div>
           <button className="widgetSmButton">
-            <VisibilityIcon className="widgetSmIcon"/>
+            <VisibilityIcon className="widgetSmIcon" />
             Display
           </button>
         </li>
         <li className="widgetSmListItem">
           <img src={profilePic} alt="" className="widgetSmImg" />
           <div className="widgetSmUser">
-            <span className="widgetSmUsername">Ramayya Pattisapu</span>
+            <span className="widgetSmUsername">Alex </span>
             <span className="widgetSmUserTitle">Junior Software Developer</span>
           </div>
           <button className="widgetSmButton">
-            <VisibilityIcon className="widgetSmIcon"/>
+            <VisibilityIcon className="widgetSmIcon" />
             Display
           </button>
         </li>
         <li className="widgetSmListItem">
           <img src={profilePic} alt="" className="widgetSmImg" />
           <div className="widgetSmUser">
-            <span className="widgetSmUsername">Ramayya Pattisapu</span>
+            <span className="widgetSmUsername">Rodelyn</span>
             <span className="widgetSmUserTitle">Junior Software Developer</span>
           </div>
           <button className="widgetSmButton">
-            <VisibilityIcon className="widgetSmIcon"/>
+            <VisibilityIcon className="widgetSmIcon" />
             Display
           </button>
         </li>
         <li className="widgetSmListItem">
           <img src={profilePic} alt="" className="widgetSmImg" />
           <div className="widgetSmUser">
-            <span className="widgetSmUsername">Ramayya Pattisapu</span>
+            <span className="widgetSmUsername">Guy Nevins</span>
             <span className="widgetSmUserTitle">Junior Software Developer</span>
           </div>
           <button className="widgetSmButton">
-            <VisibilityIcon className="widgetSmIcon"/>
+            <VisibilityIcon className="widgetSmIcon" />
             Display
           </button>
         </li>
         <li className="widgetSmListItem">
           <img src={profilePic} alt="" className="widgetSmImg" />
           <div className="widgetSmUser">
-            <span className="widgetSmUsername">Ramayya Pattisapu</span>
+            <span className="widgetSmUsername">Lucia Sienna</span>
             <span className="widgetSmUserTitle">Junior Software Developer</span>
           </div>
           <button className="widgetSmButton">
-            <VisibilityIcon className="widgetSmIcon"/>
+            <VisibilityIcon className="widgetSmIcon" />
             Display
           </button>
         </li>
