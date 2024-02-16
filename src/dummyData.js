@@ -1,3 +1,5 @@
+import profilePic from "../src/images/profilePic.jpg"
+
 export const userData = [
     {
       name: "Jan",
@@ -47,4 +49,17 @@ export const userData = [
       name: "Dec",
       "Active User": 4499,
     },
+  ];
+
+  export const userRows = [
+    { id: 1, username: "Mercury", avatar: profilePic, email:"mercury@gmail.com", status: "active", transaction: "$12.00" },
+    { id: 2, username: "Venus", avatar: profilePic, email:"venus@gmail.com", status: "active", transaction: "$12.00" },
+    { id: 3, username: "Earth", avatar: profilePic, email:"earth@gmail.com", status: "active", transaction: "$12.00" },
+    { id: 4, username: "Mars", avatar: profilePic, email:"mars@gmail.com", status: "active", transaction: "$12.00" },
+    { id: 5, username: "Jupiter", avatar: profilePic, email:"jupiter@gmail.com", status: "active", transaction: "$12.00" },
+    { id: 6, username: "Saturn", avatar: profilePic, email:"saturn@gmail.com", status: "active", transaction: "$12.00" },
+    { id: 7, username: "Uranus", avatar: profilePic, email:"uranus@gmail.com", status: "active", transaction: "$12.00" },
+    { id: 8, username: "Neptune", avatar: profilePic, email:"neptune@gmail.com", status: "active", transaction: "$12.00" },
+    { id: 9, username: "Pluto", avatar: profilePic, email:"pluto@gmail.com", status: "active", transaction: "$12.00" },
+  
   ];

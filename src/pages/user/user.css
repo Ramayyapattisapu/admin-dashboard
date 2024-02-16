@@ -1,0 +1,157 @@
+.user {
+    flex: 4;
+    padding: 20px;
+}
+
+.userTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+}
+
+.userContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.displayUser {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.updateUser {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+}
+
+.displayUsertop {
+    display: flex;
+    align-items: center;
+}
+
+.displayUserImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.displayUserTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.displayUserUsername {
+    font-weight: 600;
+}
+
+.displayUserUserTitle {
+    font-weight: 300;
+}
+
+.dispalyUserBottom {
+    margin-top: 20px;
+}
+
+.showUserTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(84, 82, 82);
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.displayUserIcon {
+    font-size: 16px !important;
+}
+
+.userInfoTitle {
+    margin-left: 10px;
+}
+
+.updateUserTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.updateUserForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.updateUserItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.updateUserItem>label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.updateUserInput {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+
+}
+
+.updateUserRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.uploadUser {
+    display: flex;
+    align-items: center;
+}
+
+.updateUserAvatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.updateUserIcon {
+    cursor: pointer;
+}
+
+.updateUserButton {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}
