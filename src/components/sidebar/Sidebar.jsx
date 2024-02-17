@@ -1,5 +1,7 @@
 import React from "react";
 import "./sidebar.css";
+import { Link } from "react-router-dom";
+
 
 import LineStyleIcon from '@mui/icons-material/LineStyle';
 import TimelineIcon from '@mui/icons-material/Timeline';
@@ -39,22 +41,30 @@ export default function sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
+            <Link to="/users" className="link">
             <li className="sidebarListItem">
               <PermIdentityIcon className="sidebarIcon" />
               Users
             </li>
+            </Link>
+            <Link to="/products" className="link">
             <li className="sidebarListItem">
               <StorefrontIcon className="sidebarIcon" />
               Products
             </li>
+            </Link>
+            <Link to="/transactions" className="link">
             <li className="sidebarListItem">
               <AttachMoneyIcon className="sidebarIcon" />
               Transactions
             </li>
+            </Link>
+            <Link to="/reports" className="link">
             <li className="sidebarListItem">
               <BarChartIcon className="sidebarIcon" />
               Reports
             </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
